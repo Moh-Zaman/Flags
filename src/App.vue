@@ -1,11 +1,14 @@
 <template>
-  <div></div>
+  <section>
+    <FlagHeader></FlagHeader>
+  </section>
 </template>
 
 <script>
+import FlagHeader from './components/flagHeader.vue'
 export default {
   name: 'App',
-  components: {},
+  components: { FlagHeader },
 }
 </script>
 
